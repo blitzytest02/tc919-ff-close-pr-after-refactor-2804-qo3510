@@ -1,0 +1,55 @@
+# Git related
+.git
+.github
+
+# Node.js dependencies and logs
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Docker related
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+CONTRIBUTING.md
+SECURITY.md
+CODE_OF_CONDUCT.md
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing and code quality
+coverage
+__tests__
+*.test.js
+jest.config.js
+.eslintrc.js
+.prettierrc.js
+
+# Development tools
+nodemon.json
+
+# Editor configurations
+.vscode
+.idea
+*.swp
+*.swo
+
+# Environment and sensitive files
+.env*
+
+# Temporary and build files
+tmp
+dist
+
+# Infrastructure files
+infrastructure
+# Exception to include the Dockerfile
+!infrastructure/docker/Dockerfile
