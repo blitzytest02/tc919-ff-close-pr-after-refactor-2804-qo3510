@@ -1,0 +1,11 @@
+{
+  "watch": ["./"],
+  "ext": "js,json",
+  "ignore": ["node_modules/", "__tests__/", "coverage/", "*.test.js"],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "3000"
+  },
+  "verbose": true,
+  "delay": 1.5
+}
