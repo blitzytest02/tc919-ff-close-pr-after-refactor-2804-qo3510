@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-hello-world-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js HTTP server application that exposes a single REST endpoint /hello which returns 'Hello world' to clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "server",
+    "hello-world",
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "jest": "29.6.1",
+    "nodemon": "^2.0.22",
+    "supertest": "6.3.3"
+  }
+}
